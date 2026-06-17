@@ -1,0 +1,19 @@
+{
+  "name": "rag-aijs",
+  "version": "1.0.0",
+  "description": "Local Document Q&A Chat Assistant in Node.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "sqlite3": "^5.1.7",
+    "mysql2": "^3.10.1",
+    "dotenv": "^16.4.5",
+    "pdf-parse": "^1.1.1",
+    "mammoth": "^1.7.2",
+    "tesseract.js": "^5.1.0"
+  }
+}
